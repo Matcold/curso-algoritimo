@@ -17,12 +17,20 @@ programa {
 	    escreva ("\n")
 	    escreva ("\n")
 	    
-	    cadeia nome = ""
+	    cadeia nome
 	    escreva ("Digite seu nome:")
 	    escreva ("\n")
 	    leia (nome)
 	    escreva ("\n")
 	    escreva ("Olá ", nome)
 	    escreva ("\n")
+	    
+	    inteiro n1, n2, soma
+	    escreva ("Digite um número: \n")
+	    leia (n1)
+	    escreva ("Digite outro número: \n")
+	    leia (n2)
+	    soma = n1 + n2
+	    escreva ("O resultado é: ", soma)
 	    }
 	}
