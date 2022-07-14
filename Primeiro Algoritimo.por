@@ -24,5 +24,5 @@ programa {
 	    escreva ("\n")
 	    escreva ("Olá ", nome)
 	    escreva ("\n")
+	    }
 	}
-}
