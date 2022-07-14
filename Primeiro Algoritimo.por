@@ -15,5 +15,14 @@ programa {
 	    cadeia msg = "Ola munodo!"
 	    escreva ("Opcao: ",msg)
 	    escreva ("\n")
+	    escreva ("\n")
+	    
+	    cadeia nome = ""
+	    escreva ("Digite seu nome:")
+	    escreva ("\n")
+	    leia (nome)
+	    escreva ("\n")
+	    escreva ("Olá ", nome)
+	    escreva ("\n")
 	}
 }
