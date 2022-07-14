@@ -1,19 +1,19 @@
 programa {
 	funcao inicio() {
-		escreva ("Ola mundo!\n")
-		escreva ("Me livrei da maldicao!\n")
+		escreva ("Olá mundo!\n")
+		escreva ("Me livrei da maldição!\n")
 		escreva ("\n")
 	    escreva ("Regras para variaveis:\n")
 	    escreva ("\n")
-	    escreva ("Primeira regra: deve comecar com uma letra;\n")
-	    escreva ("Segunda regra: os proximos podem ser letras ou numeros;\n")
-	    escreva ("Terceira regra: nao pode ultilizar nenhum simbolo, execo _;\n")
-	    escreva ("Quarta regra: nao pode conter espacos em branco;\n")
-	    escreva ("Quinta regra: nao pode conter letras com acentos;\n")
-	    escreva ("Sexta regra: nao pode ser uma palavra reservada;\n")
+	    escreva ("Primeira regra: deve começar com uma letra;\n")
+	    escreva ("Segunda regra: os próximos podem ser letras ou números;\n")
+	    escreva ("Terceira regra: não pode ultilizar nenhum simbolo, execto _;\n")
+	    escreva ("Quarta regra: não pode conter espaços em branco;\n")
+	    escreva ("Quinta regra: não pode conter letras com acentos;\n")
+	    escreva ("Sexta regra: não pode ser uma palavra reservada;\n")
 	    escreva ("\n")
-	    cadeia msg = "Ola munodo!"
-	    escreva ("Opcao: ",msg)
+	    cadeia msg = "Olá mundo!"
+	    escreva ("Opção: ",msg)
 	    escreva ("\n")
 	    escreva ("\n")
 	    
