@@ -31,6 +31,7 @@ programa {
 	    escreva ("Digite outro número: \n")
 	    leia (n2)
 	    soma = n1 + n2
-	    escreva ("O resultado é: ", soma)
+	    escreva ("A soma entre ", n1, " e " , n2, " é igual a ", soma)
+	    
 	    }
 	}
