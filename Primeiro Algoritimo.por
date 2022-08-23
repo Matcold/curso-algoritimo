@@ -35,3 +35,18 @@ programa {
 	    
 	    }
 	}
+
+programa {
+
+ inteiro: A, B, C
+
+  funcao inicio() {
+
+  A= 2
+  B= 3
+  C= 5
+
+  escreva (C>B)
+    
+  }
+}
