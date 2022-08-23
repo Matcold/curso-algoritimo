@@ -1,6 +1,13 @@
 programa {
-	funcao inicio() {
-		escreva ("Olá mundo!\n")
+
+ cadeia msg = "Olá mundo!"
+ cadeia nome
+ inteiro n1, n2, soma
+ inteiro: A, B, C
+
+funcao inicio() {
+
+        escreva ("Olá mundo!\n")
 		escreva ("Me livrei da maldição!\n")
 		escreva ("\n")
 	    escreva ("Regras para variaveis:\n")
@@ -12,12 +19,10 @@ programa {
 	    escreva ("Quinta regra: não pode conter letras com acentos;\n")
 	    escreva ("Sexta regra: não pode ser uma palavra reservada;\n")
 	    escreva ("\n")
-	    cadeia msg = "Olá mundo!"
 	    escreva ("Opção: ",msg)
 	    escreva ("\n")
 	    escreva ("\n")
 	    
-	    cadeia nome
 	    escreva ("Digite seu nome:")
 	    escreva ("\n")
 	    leia (nome)
@@ -25,28 +30,18 @@ programa {
 	    escreva ("Olá ", nome)
 	    escreva ("\n")
 	    
-	    inteiro n1, n2, soma
 	    escreva ("Digite um número: \n")
 	    leia (n1)
 	    escreva ("Digite outro número: \n")
 	    leia (n2)
 	    soma = n1 + n2
 	    escreva ("A soma entre ", n1, " e " , n2, " é igual a ", soma)
-	    
-	    }
-	}
+        escreva ("\n")
 
-programa {
+        A= 2
+        B= 3
+        C= 5
 
- inteiro: A, B, C
-
-  funcao inicio() {
-
-  A= 2
-  B= 3
-  C= 5
-
-  escreva (C>B)
-    
-  }
+        escreva (C>B) 
+    }
 }
