@@ -68,6 +68,7 @@ funcao inicio() {
   escreva ("\n")
   escreva ("O triangulo é ESCALENO? ")
   escreva (ES)
+  escreva ("\n")
   
   escreva ("Em que ano nós estamos?\n")
   leia (ano_atual)
