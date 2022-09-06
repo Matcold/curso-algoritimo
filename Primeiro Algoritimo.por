@@ -1,9 +1,10 @@
 programa {
 
- cadeia msg = "Olá mundo!"
- cadeia nome
- inteiro n1, n2, soma
+ cadeia: msg = "Olá mundo!"
+ cadeia: nome
+ inteiro: n1, n2, soma
  inteiro: A, B, C
+ inteiro: ano_atual, ano_nasc, idade
  real: L1, L2, L3
  logico: EQ, ES, TRI
 
@@ -67,5 +68,13 @@ funcao inicio() {
   escreva ("\n")
   escreva ("O triangulo é ESCALENO? ")
   escreva (ES)
+  
+  escreva ("Em que ano nós estamos?\n")
+  leia (ano_atual)
+  escreva ("Em que ano eu nasci?\n")
+  leia (ano_nasc)
+  idade= ano_atual - ano_nasc
+  escreva ("A minha idade é ", idade)
+  
   }
 }
