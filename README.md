@@ -1,2 +1,3 @@
-# Treino do curso de Algoritimos
-Código simples feito no Portugol Webstudio 
+# Treino de Algoritimos
+
+Estrutura de códigos do curso de lógica de programação.
